@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(225, 182, 239);
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px; 
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px 0; 
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Table styles with hover effect */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+  background-color: white;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 260px;
+  background-color: #2b2e4a;
+  color: #fff;
+  padding: 2rem 1rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffcc29;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.sidebar-links {
+  list-style-type: none;
+}
+
+.sidebar-links li {
+  margin: 1rem 0;
+}
+
+.sidebar-links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.sidebar-links a:hover {
+  background-color: #3d3f5c;
+  transform: translateX(5px);
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}

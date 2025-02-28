@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Manager Dashboard</title>
+    <link rel="stylesheet" href="dshboard.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <h2>Finance Manager</h2>
+        <ul class="sidebar-links">
+            <li><a href="finpaymnt.php">Payment Management</a></li>
+            <li><a href="bugt.html">Budget & Investment</a></li>
+            <li><a href="project.html">Calculate Project Cost</a></li>
+            <li><a href="#report-generation">Generate Project Report</a></li>
+            <li><a href="deliverycst.html">Calculate Delivery Cost</a></li>
+            <li><a href="salary.html">Calculate Employee Salary</a></li>
+        </ul>
+        <!-- Logout Button -->
+        <a href="#logout" class="logout-btn">Logout</a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <header>
+            <h1>Welcome, Finance Manager</h1>
+            <p>Manage financial operations and generate important reports.</p>
+        </header>
+
+        <!-- Dashboard Cards -->
+        <section class="dashboard-cards">
+            <div class="card">
+                <h3>Payment Management</h3>
+                <p>Manage all payment records and transactions</p>
+                <a href="finpaymnt.php" class="card-link">Manage Payments</a>
+            </div>
+            <div class="card">
+                <h3>Budget & Investment</h3>
+                <p>Manage budgets and investments for projects</p>
+                <a href="bugt.html" class="card-link">Manage Budgets</a>
+            </div>
+            <div class="card">
+                <h3>Project Cost</h3>
+                <p>Calculate and track project costs</p>
+                <a href="project.html" class="card-link">Calculate Cost</a>
+            </div>
+            <div class="card">
+                <h3>Project Report</h3>
+                <p>Generate cost and revenue reports</p>
+                <a href="#report-generation" class="card-link">Generate Report</a>
+            </div>
+            <div class="card">
+                <h3>Delivery Cost</h3>
+                <p>Calculate delivery expenses</p>
+                <a href="deliverycst.html" class="card-link">Calculate Delivery Cost</a>
+            </div>
+            <div class="card">
+                <h3>Employee Salary</h3>
+                <p>Calculate salary based on attendance and hours</p>
+                <a href="salary.html" class="card-link">Calculate Salary</a>
+            </div>
+        
+        </section>
+    </div>
+</body>
+</html>
