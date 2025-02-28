@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Management</title>
+    <link rel="stylesheet" href="discount.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Manage Discounts</h1>
+        
+        <div class="form-container">
+            <h2>Add New Discount</h2>
+            <form id="discount-form">
+                <label for="discount-id">Discount ID:</label>
+                <input type="text" id="discount-id" name="discount-id" required>
+                
+                <label for="discounted-item-price">Discounted Item Price:</label>
+                <input type="number" id="discounted-item-price" name="discounted-item-price" required>
+                
+                <label for="discounted-item-type">Discounted Item Type:</label>
+                <input type="text" id="discounted-item-type" name="discounted-item-type" required>
+                
+                <label for="discount-period">Discount Period:</label>
+                <input type="date" id="discount-period-start" name="discount-period-start" required>
+                <input type="date" id="discount-period-end" name="discount-period-end" required>
+                
+                <button type="submit">Add Discount</button>
+            </form>
+        </div>
+        
+        <div class="table-container">
+            <h2>Discount Records</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Discount ID</th>
+                        <th>Discounted Item Price</th>
+                        <th>Discounted Item Type</th>
+                        <th>Discount Period</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="discount-records">
+                    <!-- Discount records will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="discount.js"></script>
+</body>
+</html>
