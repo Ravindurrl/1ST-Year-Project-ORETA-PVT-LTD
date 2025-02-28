@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Products</title>
+  <link rel="stylesheet" href="srch.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="C:\Users\saths\Downloads\cstmr\logo.png" alt="logo"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="C:\Users\saths\Downloads\cstmr\cstmr.html">Home</a></li>
+                <li><a href="C:\Users\saths\Downloads\cstmr\srch\srch.html">Products</a></li>
+                <li><a href="C:\Users\saths\Downloads\cstmr\contact.html">Contact</a></li>
+                <li><a href="C:\Users\saths\Downloads\cstmr\about us.html">About Us</a></li>
+      </ul>
+      <div class="wrapper">
+        <a href="singup.html" class="button">Sign up</a>
+        <a href="index.html" class="button">Log In</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-search">
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search for products..." />
+        <button onclick="searchProducts()">Search</button>
+      </div>
+
+      <div class="filters">
+        <h3>Categories</h3>
+        <button onclick="filterProducts('all')">All</button>
+        <button onclick="filterProducts('door')">Doors</button>
+        <button onclick="filterProducts('window')">Windows</button>
+        <button onclick="filterProducts('griffin')">Griffin</button>
+        <button onclick="filterProducts('roofing')">Roofing</button>
+        <button onclick="filterProducts('sheet')">Sheets</button>
+      </div>
+    </section>
+
+    <section class="product-list" id="product-list">
+      <!-- Dynamic product cards will load here -->
+    </section>
+
+    <button class="view-cart" onclick="viewCart()">View Cart</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 UPVC Store Management System. All Rights Reserved.</p>
+  </footer>
+
+  <script src="srch.js"></script>
+</body>
+
+</html>
