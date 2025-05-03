@@ -1,5 +1,13 @@
 # 1ST-Year-Project-ORETA-PVT-LTD
 
+
+<p align="center">
+  <img src="https://th.bing.com/th/id/OIP.Iy6loKYyD7FIRUSSzTcuXgAAAA?rs=1&pid=ImgDetMain" alt="ORETA Logo" width="250"/>
+</p>
+
+# 💼 UPVC Shop Management System
+
+
 # 💼 UPVC Shop Management System
 
 > A full-featured web-based management system built for **ORETA UPVC (Pvt) Ltd** to streamline operations and improve productivity across departments.
