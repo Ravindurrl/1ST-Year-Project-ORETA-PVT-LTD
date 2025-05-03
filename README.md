@@ -61,6 +61,24 @@ The **ORETA Shop Management System** replaces the company’s manual operations 
 
 ---
 
+## 🧩 System Diagrams
+
+The following diagrams illustrate the architecture and core design of the UPVC Shop Management System:
+
+### 📘 Entity Relationship (ER) Diagram
+Provides a high-level view of the database structure, showing entities and their relationships.
+
+### 🧱 Class Diagram
+Outlines the system's object-oriented structure, including classes, attributes, methods, and associations.
+
+### 🎯 Use Case Diagram
+Visualizes user interactions with the system, highlighting major functional requirements.
+
+📂 **View Diagrams**  
+You can view or download the full set of diagrams here:  
+🔗 [Google Drive – ER, Class & Use Case Diagrams](https://drive.google.com/file/d/1XQ20oFu-l-Vj0Y6YfKhI6P9zdj_uecBz/view)
+
+
 🙏 Acknowledgements
 
 - Team Members of the ORETA Dev Project
