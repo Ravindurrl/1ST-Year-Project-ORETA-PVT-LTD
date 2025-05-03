@@ -61,6 +61,14 @@ The **ORETA Shop Management System** replaces the company’s manual operations 
 
 ---
 
+🙏 Acknowledgements
+
+Team Members of the ORETA Dev Project
+
+Open-source libraries and tools
+
+Mentors and supervisors
+
 ## ⚙️ Installation Guide
 
 1. **Clone this repository:**
