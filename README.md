@@ -66,3 +66,11 @@ The **ORETA Shop Management System** replaces the company’s manual operations 
 1. **Clone this repository:**
    ```bash
    git clone https://github.com/yourusername/upvc-shop-management.git
+
+## 📬 Contact
+
+Feel free to connect or reach out for collaboration, questions, or feedback:
+
+- 📧 **Email:** [ravindurrl147@gmail.com](mailto:ravindurrl147@gmail.com)  
+- 💼 **LinkedIn:** [Ravindu Hettiarachchi](https://www.linkedin.com/in/ravindu-hettiarachchi49)
+
